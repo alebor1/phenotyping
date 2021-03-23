@@ -111,7 +111,7 @@ for i in range(numphotos):
     
     #database.set(data)
 
-    myclient = pymongo.MongoClient("mongodb+srv://alebor:Nxebjuxf14@cluster0.fgp5d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    myclient = ####################################################################
     mydb = myclient["Plants"]
     mycol = mydb["Growdata"]
     
